@@ -42,7 +42,7 @@
     Engine • revision 3757390fa4
     Tools • Dart 2.1.2 (build 2.1.2-dev.0.0 0a7dcf17eb)
     
-# step1:
+### step1:
     import 'package:flutter/foundation.dart'
     show debugDefaultTargetPlatformOverride;
 
@@ -51,14 +51,14 @@
       debugDefaultTargetPlatformOverride = TargetPlatform.fuchsia;
       runApp(MyApp());
     }
-# step2:
+### step2:
   modify localhost "ws://10.0.2.2:8765" / "ws://127.0.0.1:8765"
-# step3:
+### step3:
   repalce /demo/lib/main.dark
   modify /demo/pubspec.yaml
-# step4:
+### step4:
   packages get
-# step5:
+### step5:
   done.
 
 
