@@ -33,6 +33,7 @@
 ...............................................................
 
 ## flutter AVD can damage pyaudio.
+  setting-sound-mic modify the input level.
 ...............................................................
 
 ## go-flutter
