@@ -60,6 +60,13 @@
 ### step4:
   packages get
 ### step5:
-  done.
+  #### font set.
+        1. pubspec.yaml
+                 fonts:
+                - family: chinese
+                  fonts:
+                    - asset: fonts/chinese/chinese-wryh.ttf
+                      weight: 200
+
 
 
