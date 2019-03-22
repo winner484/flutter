@@ -62,11 +62,15 @@
 ### step5:
   #### font set.
         1. pubspec.yaml
-                 fonts:
-                - family: chinese
-                  fonts:
-                    - asset: fonts/chinese/chinese-wryh.ttf
-                      weight: 200
+              fonts:
+                 - family: chinese
+                   fonts:
+                       - asset: fonts/chinese/chinese-wryh.ttf
+                         weight: 200
+                         
+        2.      theme: new ThemeData(
+                fontFamily: 'chinese',
+                 ),
 
 
 
